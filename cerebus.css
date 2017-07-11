@@ -23,10 +23,10 @@ body {
 }
 
 .home-tagline {
-	text-align: center;
+		text-align: center;
     color: #ffffff;
-    font-size: 1em;
-    letter-spacing: 0.25em;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
     margin: 0;
 }
 
