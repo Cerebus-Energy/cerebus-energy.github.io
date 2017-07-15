@@ -3,10 +3,24 @@ html {
 }
 
 body {
-	font-size: 16px;
+	font-size: 16px !important;
 	margin: 3px;
 	background-color: #192545;
+	background-image: url('images/c_bg.jpg');
+	background-size: 100% 100%;
 	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+	font-size: 3.6em;
+}
+
+h2 {
+	font-size: 2.6em;
+}
+
+h3 {
+	font-size: 1.8em;
 }
 
 .img-responsive {
@@ -22,18 +36,19 @@ body {
     font-family: 'Exo', sans-serif;
 }
 
-.home-tagline {
-		text-align: center;
+h3.home-tagline  {
+	text-align: center;
     color: #ffffff;
-    font-size: 1.2em;
-    letter-spacing: 0.05em;
-    margin: 0;
+}
+
+p.home-tagline  {
+	text-align: center;
+    color: #ccc;
 }
 
 .splash-box {
-	position: absolute;
     width: 100%;
-    top: 40%;
+    padding: 30px;
 }
 
 .contact-box {
@@ -53,4 +68,8 @@ body {
 	background-color: #FFC534;
 	border-radius: 3px;
 	padding: 4px 8px;
+}
+
+footer {
+	padding: 20px 30px;
 }
